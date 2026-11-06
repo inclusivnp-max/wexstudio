@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://repo.maven.apache.org/maven2/com/microsoft/java/com.microsoft.java.debug.core/0.53.1/com.microsoft.java.debug.core-0.53.1.jar",
+    "file": "com.microsoft.java.debug.core-0.53.1.jar",
+    "sha256": "50c58683cc97e91e95d73a6160df0316f3a1832045d33e7ea93fdf852a65fb38"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar",
+    "file": "commons-lang3-3.18.0.jar",
+    "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar",
+    "file": "gson-2.8.9.jar",
+    "sha256": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.jar",
+    "file": "rxjava-2.2.21.jar",
+    "sha256": "59df6541a840018f0f4c899aae4f4c1f4383f4c16feb5268615fbe384d28501c"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+    "file": "reactive-streams-1.0.4.jar",
+    "sha256": "f75ca597789b3dac58f61857b9ac2e1034a68fa672db35055a8fb4509e325f28"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.14.0/commons-io-2.14.0.jar",
+    "file": "commons-io-2.14.0.jar",
+    "sha256": "e35d1df7232568ed4b81d9a9ed94a0159b3ff6cf1915cc21eef5cb55d7b157a2"
+  }
+]

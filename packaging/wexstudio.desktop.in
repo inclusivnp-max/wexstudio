@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Wex Studio
+Comment=Native Android IDE
+Exec="@APP_DIR@/wexstudio" %f
+Icon=@APP_DIR@/share/icons/wexstudio.svg
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true

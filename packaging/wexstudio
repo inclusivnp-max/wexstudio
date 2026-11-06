@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -eu
+APP_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+: "${WEX_SUPPORT_HOME:=$APP_DIR/share/wex}"
+export WEX_SUPPORT_HOME
+# Never chdir the calling process: relative SDK/JDK/tool roots bind to launch cwd.
+if [ "$#" -eq 0 ]; then
+    exec "$APP_DIR/bin/wex-ide" --welcome
+fi
+exec "$APP_DIR/bin/wex-ide" "$@"

@@ -1,0 +1,31 @@
+initscript {
+    dependencies { classpath files(System.getProperty('wex.bridge.classes')) }
+}
+import javax.inject.Inject
+import org.gradle.api.Plugin
+import org.gradle.api.Project
+import org.gradle.tooling.provider.model.ToolingModelBuilder
+import org.gradle.tooling.provider.model.ToolingModelBuilderRegistry
+import dev.wex.bridge.GeneratedArtifacts
+
+class WexGeneratedResult implements GeneratedArtifacts, Serializable {
+    List<String> resourceJars = []
+}
+class WexGeneratedBuilder implements ToolingModelBuilder {
+    boolean canBuild(String name) { name == 'dev.wex.bridge.GeneratedArtifacts' }
+    Object buildAll(String name, Project project) {
+        def variant = project.findProperty('wex.variant') ?: 'debug'
+        def cap = variant.substring(0,1).toUpperCase(Locale.ROOT) + variant.substring(1)
+        def result = new WexGeneratedResult()
+        // Query declared task outputs; no guessing AGP's intermediates directory layout.
+        def task = project.tasks.findByName("generate${cap}RFile")
+        if (task != null) result.resourceJars = task.outputs.files.files.findAll { it.name == 'R.jar' }.collect { it.absolutePath }
+        return result
+    }
+}
+class WexGeneratedPlugin implements Plugin<Project> {
+    private final ToolingModelBuilderRegistry registry
+    @Inject WexGeneratedPlugin(ToolingModelBuilderRegistry registry) { this.registry = registry }
+    void apply(Project project) { registry.register(new WexGeneratedBuilder()) }
+}
+gradle.beforeProject { project -> project.plugins.apply(WexGeneratedPlugin) }

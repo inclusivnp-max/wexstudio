@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "name": "Counter",
+      "composable": "dev.wex.compose.MainActivityKt.WexPreview",
+      "width_dp": 360,
+      "height_dp": 640,
+      "dark": false,
+      "font_scale": 1.0
+    }
+  ]
+}

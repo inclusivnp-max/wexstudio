@@ -1,0 +1,548 @@
+{
+  "schema": 1,
+  "resolver_abi": 3,
+  "config_blake3": "fa86461db1b19b1ae6aea8a6c4bddf2877f1022465d607640f5f5e7cd9834154",
+  "module_scopes": {
+    "app": [
+      "androidx.annotation:annotation",
+      "androidx.annotation:annotation-experimental",
+      "androidx.arch.core:core-common",
+      "androidx.arch.core:core-runtime",
+      "androidx.collection:collection",
+      "androidx.concurrent:concurrent-futures",
+      "androidx.core:core",
+      "androidx.interpolator:interpolator",
+      "androidx.lifecycle:lifecycle-common",
+      "androidx.lifecycle:lifecycle-runtime",
+      "androidx.profileinstaller:profileinstaller",
+      "androidx.startup:startup-runtime",
+      "androidx.tracing:tracing",
+      "androidx.versionedparcelable:versionedparcelable",
+      "com.google.guava:listenablefuture",
+      "org.jetbrains.kotlin:kotlin-stdlib",
+      "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+      "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+      "org.jetbrains:annotations"
+    ],
+    "shared": []
+  },
+  "artifacts": [
+    {
+      "coordinate": {
+        "group": "androidx.core",
+        "artifact": "core",
+        "version": "1.13.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/core/core/1.13.0/core-1.13.0.aar",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.4.0",
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.collection:collection:1.0.0",
+        "androidx.concurrent:concurrent-futures:1.0.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "androidx.lifecycle:lifecycle-runtime:2.6.2",
+        "androidx.versionedparcelable:versionedparcelable:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "org.jetbrains.kotlin",
+        "artifact": "kotlin-stdlib",
+        "version": "2.4.0"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.jar",
+      "dependencies": [
+        "org.jetbrains:annotations:13.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.annotation",
+        "artifact": "annotation",
+        "version": "1.6.0"
+      },
+      "packaging": "jar",
+      "file": "8d28c811e4c4fd02/androidx/annotation/annotation/1.6.0/annotation-1.6.0.jar",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.annotation",
+        "artifact": "annotation-experimental",
+        "version": "1.4.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/annotation/annotation-experimental/1.4.0/annotation-experimental-1.4.0.aar",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.collection",
+        "artifact": "collection",
+        "version": "1.0.0"
+      },
+      "packaging": "jar",
+      "file": "8d28c811e4c4fd02/androidx/collection/collection/1.0.0/collection-1.0.0.jar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.concurrent",
+        "artifact": "concurrent-futures",
+        "version": "1.0.0"
+      },
+      "packaging": "jar",
+      "file": "8d28c811e4c4fd02/androidx/concurrent/concurrent-futures/1.0.0/concurrent-futures-1.0.0.jar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.interpolator",
+        "artifact": "interpolator",
+        "version": "1.0.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.lifecycle",
+        "artifact": "lifecycle-runtime",
+        "version": "2.6.2"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.arch.core:core-common:2.2.0",
+        "androidx.arch.core:core-runtime:2.2.0",
+        "androidx.lifecycle:lifecycle-common:2.6.2",
+        "androidx.profileinstaller:profileinstaller:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.versionedparcelable",
+        "artifact": "versionedparcelable",
+        "version": "1.1.1"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.collection:collection:1.0.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "org.jetbrains",
+        "artifact": "annotations",
+        "version": "13.0"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+      "dependencies": []
+    },
+    {
+      "coordinate": {
+        "group": "com.google.guava",
+        "artifact": "listenablefuture",
+        "version": "1.0"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar",
+      "dependencies": []
+    },
+    {
+      "coordinate": {
+        "group": "androidx.arch.core",
+        "artifact": "core-common",
+        "version": "2.2.0"
+      },
+      "packaging": "jar",
+      "file": "8d28c811e4c4fd02/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.jar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.arch.core",
+        "artifact": "core-runtime",
+        "version": "2.2.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.arch.core:core-common:2.2.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.lifecycle",
+        "artifact": "lifecycle-common",
+        "version": "2.6.2"
+      },
+      "packaging": "jar",
+      "file": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2.jar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.profileinstaller",
+        "artifact": "profileinstaller",
+        "version": "1.3.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/profileinstaller/profileinstaller/1.3.0/profileinstaller-1.3.0.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.concurrent:concurrent-futures:1.0.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "org.jetbrains.kotlinx",
+        "artifact": "kotlinx-coroutines-android",
+        "version": "1.6.4"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4.jar",
+      "dependencies": [
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.startup",
+        "artifact": "startup-runtime",
+        "version": "1.1.1"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.tracing:tracing:1.0.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "org.jetbrains.kotlinx",
+        "artifact": "kotlinx-coroutines-core-jvm",
+        "version": "1.6.4"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.jar",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "androidx.tracing",
+        "artifact": "tracing",
+        "version": "1.0.0"
+      },
+      "packaging": "aar",
+      "file": "8d28c811e4c4fd02/androidx/tracing/tracing/1.0.0/tracing-1.0.0.aar",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0"
+      ]
+    },
+    {
+      "coordinate": {
+        "group": "org.jetbrains.kotlin",
+        "artifact": "kotlin-stdlib-common",
+        "version": "1.6.21"
+      },
+      "packaging": "jar",
+      "file": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.jar",
+      "dependencies": []
+    }
+  ],
+  "files": [
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom",
+      "bytes": 10180,
+      "blake3": "2d85482afb4a2e625c32d52051dffab29183bed3c89c8b7a51bd78a9f014790a"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar",
+      "bytes": 3149,
+      "blake3": "8e2486068308e7a1174a726d5695be7b05fa8c35ce19df0b26b847f725da8a8b"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom",
+      "bytes": 2226,
+      "blake3": "b71afba3c6aaeaa6016a881cd1522372c55430d2cf0d12e7badea571ea787b39"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+      "bytes": 17536,
+      "blake3": "200a54604e553e8e5a861721ba9356348cf06f648325b5380e54f53296a34469"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/annotations/13.0/annotations-13.0.pom",
+      "bytes": 4930,
+      "blake3": "595868166b801886fd829928659099019f48bcd8641c8845373180d6a3fa5576"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.jar",
+      "bytes": 200631,
+      "blake3": "6cd10f4743c0bc3344c9104351efd31306d8f90f8c2e900700526574f1c2dc82"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.pom",
+      "bytes": 1162,
+      "blake3": "3a06e262af62933ee1487a98063a8c2a399969c31a068931b2047e0061732989"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.jar",
+      "bytes": 1841929,
+      "blake3": "1d691b21165164f1b4f37193878ebbd67a6094d72b5fc943662417abe51332b8"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.pom",
+      "bytes": 2299,
+      "blake3": "eab2d257cbecc569ff135de01b715ddb0304b95826c6c0998e6b4c76e7334e18"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4.jar",
+      "bytes": 19520,
+      "blake3": "10df16beff9c642ee45fe3b5a808ac424b1a610eff98ad75907641398adc9704"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4.pom",
+      "bytes": 2226,
+      "blake3": "415c3e227497d10ee5e899ce27cff8ee35325fed890e8f8395508740c8b9c1bb"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.6.4/kotlinx-coroutines-bom-1.6.4.pom",
+      "bytes": 4291,
+      "blake3": "538955ad7df578358583ce32c30c0ed9a48470864de47044c147e5243f4a920a"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.jar",
+      "bytes": 1476653,
+      "blake3": "e715dc69dc9ad8ef1777241884932853996be5e6d0f2f75aa289c4d5edc2eaed"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.pom",
+      "bytes": 2217,
+      "blake3": "c70d409f76cdf21653dc683052756f72d3b41dcb699a04cdf38db9fecf624b1b"
+    },
+    {
+      "repository": "https://repo.maven.apache.org/maven2",
+      "path": "74f14b192f26f49b/org/sonatype/oss/oss-parent/9/oss-parent-9.pom",
+      "bytes": 6569,
+      "blake3": "a6eb6afab9a6d9f37119ced781db4edc73e3beea27db427a31598ca830793f1a"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/annotation/annotation-experimental/1.4.0/annotation-experimental-1.4.0.aar",
+      "bytes": 39811,
+      "blake3": "33c69c1f7f1c97c68b77fc52f4bab9a908404d8fd8b253b99b1bd779e956b09d"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/annotation/annotation-experimental/1.4.0/annotation-experimental-1.4.0.pom",
+      "bytes": 2031,
+      "blake3": "d0beb2fd06594b9b2fd938285b0351cb17ca632b54141e27f652483a97642452"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/annotation/annotation/1.6.0/annotation-1.6.0.jar",
+      "bytes": 670,
+      "blake3": "22ffa53483dbea52482b9b001b9aeb223382f5998271ffa4d0c576a04ab5aa3b"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/annotation/annotation/1.6.0/annotation-1.6.0.pom",
+      "bytes": 1927,
+      "blake3": "fe0c296c9872c113b076e2d0ea578d0b9c3931e3551d873aa4692b657ded6ad1"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.jar",
+      "bytes": 11657,
+      "blake3": "4bbb6c8be54a06573c6e958844a81fb0280aa69334f824c97160382b709310d1"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.pom",
+      "bytes": 1704,
+      "blake3": "f17517d8d19a8862080ebff35471c5a590fccb509bfcdc65e8c4b3a1b5d4c36f"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.aar",
+      "bytes": 7577,
+      "blake3": "f6727a2aacdd043f06c07825e9cfec3c5baae31c4c1017e7049c9244437562ef"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.pom",
+      "bytes": 1920,
+      "blake3": "f9b93afd7336860722d31f55c197cd4ceac252a607a00fa641e7674eb5d3b451"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/collection/collection/1.0.0/collection-1.0.0.jar",
+      "bytes": 41692,
+      "blake3": "7d205afc9513e3044b78cbc42da713c6b04068808d50e891bc6eedd489e13384"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/collection/collection/1.0.0/collection-1.0.0.pom",
+      "bytes": 1497,
+      "blake3": "c7f1a94503820e6c6b78007d862107ab4bdd8661202633c77102aadf7e7a204c"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/concurrent/concurrent-futures/1.0.0/concurrent-futures-1.0.0.jar",
+      "bytes": 25895,
+      "blake3": "42b956234a73756caccd734c0ba3422d84d9b016d7c5c4a039bda209cfd1be11"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/concurrent/concurrent-futures/1.0.0/concurrent-futures-1.0.0.pom",
+      "bytes": 1535,
+      "blake3": "c69a463f834d4988417f6f3c6b8413689f068684084af47aa24cd9657bbb6e93"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/core/core/1.13.0/core-1.13.0.aar",
+      "bytes": 1270405,
+      "blake3": "936547654e6e4e165c688cc0139be1d7e00fba441007927e7b75f7bc4d3f6b88"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/core/core/1.13.0/core-1.13.0.pom",
+      "bytes": 3654,
+      "blake3": "d97841746115431ff1a7e01731d4d9c4c0b8fbbf81e511924d1dfa622bae2688"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.aar",
+      "bytes": 7669,
+      "blake3": "03d41f1bbb3528dffeb57034552be834a1b3cb09352be88eda94e9ffb7cc0477"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom",
+      "bytes": 1608,
+      "blake3": "d8ef328aac47761c29c4f82602e939c01b54c8b06e1649ca87f81111efc919ea"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2.jar",
+      "bytes": 52314,
+      "blake3": "89f446b108c6c7091a77361cf47d7815ae0316a4c2501d153e9b970a655aab4e"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2.pom",
+      "bytes": 6581,
+      "blake3": "6101b20bd46395c3a3be7b78bcf5c13c6f3a323e69b1dd986c3179e15aeb4a88"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2.aar",
+      "bytes": 21738,
+      "blake3": "cb2e8e996b1d8d23c986894a54a53b3dc998427b26447a3832199f4f14a3c047"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2.pom",
+      "bytes": 6877,
+      "blake3": "256dd864f370b8a7fced8a6e5b8b6fc06ff8f08137daae9b6c446fe42753c9cc"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/profileinstaller/profileinstaller/1.3.0/profileinstaller-1.3.0.aar",
+      "bytes": 47529,
+      "blake3": "252bc695628c850e7a17b48d9fc7bb689bcdff28e65c60109d2685870ecb0fc0"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/profileinstaller/profileinstaller/1.3.0/profileinstaller-1.3.0.pom",
+      "bytes": 2418,
+      "blake3": "1797392e28c69d2c408c98e138d22508560225d480f2437de19b8c087541122f"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.aar",
+      "bytes": 19371,
+      "blake3": "2c60a2b9d3397a6921dbf1adcdf235b1e341296080afe36a037de6389a4873b5"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.pom",
+      "bytes": 1949,
+      "blake3": "af6b398ea01c4cd8aab8700a4f86ef6f4db6ecd470712e31bdb11367ed72c32e"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/tracing/tracing/1.0.0/tracing-1.0.0.aar",
+      "bytes": 4444,
+      "blake3": "21ed800efd374af2caa2a1328ef9d6bbd8bf72cc04f961a13a8f487864a4359a"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/tracing/tracing/1.0.0/tracing-1.0.0.pom",
+      "bytes": 1717,
+      "blake3": "590ddb792759aa2513827718e1daa0da16cb4a36120de01bb78d7982000c75a5"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.aar",
+      "bytes": 31061,
+      "blake3": "2873179208456fa72997b34baee9659838292bef317aaec3c905a29a7e766e7a"
+    },
+    {
+      "repository": "https://dl.google.com/dl/android/maven2",
+      "path": "8d28c811e4c4fd02/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.pom",
+      "bytes": 1643,
+      "blake3": "8d3a1e56a8aa0cd0643a85df613dd5f904ee6498c15d9d53386d45e190dfc432"
+    }
+  ],
+  "mediation": "nearest-first-declaration (POM compile+runtime; fixed versions)"
+}

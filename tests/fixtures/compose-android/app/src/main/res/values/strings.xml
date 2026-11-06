@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wex Compose · No Gradle</string>
+    <style name="Theme.Wex.Compose" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

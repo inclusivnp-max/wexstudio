@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "Wex Compose Integration",
+  "repositories": [
+    "https://dl.google.com/dl/android/maven2",
+    "https://repo.maven.apache.org/maven2"
+  ],
+  "android": {
+    "compile_sdk": 36,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "application_id": "dev.wex.compose.integration"
+  },
+  "modules": [
+    {
+      "name": "app",
+      "sources": [
+        "app/src/main/kotlin"
+      ],
+      "resources": [
+        "app/src/main/res"
+      ],
+      "projects": [
+        "shared"
+      ],
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0",
+        "androidx.activity:activity-compose:1.11.0",
+        "androidx.compose.material3:material3-android:1.4.0-alpha18",
+        "androidx.compose.ui:ui-android:1.9.3"
+      ]
+    },
+    {
+      "name": "shared",
+      "namespace": "dev.wex.compose.shared",
+      "sources": [
+        "shared/src/main/kotlin",
+        "shared/src/main/java"
+      ],
+      "dependencies": [
+        "androidx.compose.material3:material3-android:1.4.0-alpha18",
+        "androidx.compose.runtime:runtime-android:1.9.3"
+      ]
+    }
+  ],
+  "build": {
+    "application_module": "app",
+    "namespace": "dev.wex.compose",
+    "manifest": "app/src/main/AndroidManifest.xml",
+    "build_tools": "36.0.0",
+    "kotlin_version": "2.4.0",
+    "jvm_target": 17,
+    "compose": {
+      "source_information": true,
+      "reports": true,
+      "strong_skipping": true
+    }
+  },
+  "constraints": [
+    "androidx.compose.material3:material3-android:1.4.0-alpha18"
+  ],
+  "platforms": [
+    "androidx.compose:compose-bom:2025.10.01"
+  ],
+  "android_variants": true
+}

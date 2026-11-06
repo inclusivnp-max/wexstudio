@@ -1,0 +1,56 @@
+[package]
+name = "wexandroidstudio"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Native Rust Android workbench: Rope, Tree-sitter, ADB and bounded Logcat"
+license = "Apache-2.0"
+default-run = "wex"
+
+[features]
+default = []
+desktop = ["dep:eframe", "dep:wgpu", "dep:image", "dep:ab_glyph", "dep:vt100"]
+
+[dependencies]
+vt100 = { version = "=0.16.2", optional = true }
+ab_glyph = { version = "=0.2.32", optional = true }
+anyhow = "1"
+libc = "=0.2.190"
+blake3 = "1"
+sha2 = "=0.11.0"
+bytes = "1"
+clap = { version = "4", features = ["derive"] }
+eframe = { version = "=0.33.3", optional = true, default-features = false, features = ["wgpu", "x11", "wayland", "default_fonts"] }
+wgpu = { version = "27", optional = true, default-features = false, features = ["vulkan", "gles", "wgsl"] }
+image = { version = "0.25", optional = true, default-features = false, features = ["png"] }
+heed = { version = "0.22.1", default-features = false }
+regex = "1"
+ropey = "1.6.1"
+unicode-segmentation = "=1.13.3"
+roxmltree = "=0.21.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tempfile = "3"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "io-util", "time", "process", "sync", "signal", "fs"] }
+tree-sitter = "0.25"
+tree-sitter-kotlin-ng = "1.1.0"
+walkdir = "2"
+url = "2"
+zip = { version = "=2.4.2", default-features = false, features = ["deflate"] }
+
+[[bin]]
+name = "wex"
+path = "src/main.rs"
+
+[[bin]]
+name = "wex-ide"
+path = "src/bin/ide.rs"
+required-features = ["desktop"]
+
+[profile.release]
+opt-level = "s"
+panic = "abort"
+lto = "thin"
+codegen-units = 1
+strip = true
+

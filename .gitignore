@@ -1,0 +1,33 @@
+# Rust build artifacts
+/target/
+
+# Wex IDE internal caches & tools
+/.wex/
+**/.wex/
+/.verification/
+
+# Gradle & Build caches from test fixtures
+**/build/
+**/.gradle/
+**/.kotlin/
+**/local.properties
+*.apk
+*.aab
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# IDEs & OS
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Archives & Patches
+*.patch
+*.tar.gz
+*.zip
