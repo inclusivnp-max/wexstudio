@@ -1,5 +1,14 @@
 # WexAndroidStudio
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Rust-2024-black?style=for-the-badge&logo=rust&logoColor=white" alt="Rust 2024" />
+  <img src="https://img.shields.io/badge/Render-WGPU-blueviolet?style=for-the-badge" alt="WGPU" />
+  <img src="https://img.shields.io/badge/Parser-Tree--sitter-green?style=for-the-badge" alt="Tree-sitter" />
+  <img src="https://img.shields.io/badge/ADB-Async%20Smart%20Socket-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="ADB Socket" />
+  <img src="https://img.shields.io/badge/LSP-Kotlin%20K2-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="K2 LSP" />
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey?style=for-the-badge" alt="Linux and Windows" />
+</p>
+
 Нативный Android workbench на Rust, winit и wgpu. JVM-процессы Gradle и K2
 работают отдельно от GPU-интерфейса.
 
